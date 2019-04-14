@@ -3,8 +3,6 @@ import numpy as np
 df1 = pd.read_csv(r"C:\ssa_fb.csv", index_col = False, names = ["A","B","C","D","E","F","G","H","I"])
 df1 = df1.iloc[5:]
 df1 = df1.drop(df1.index[12])
-a = "?()$"
-b = "?"
 df1['1'] = df1['A'].fillna('') +  df1['B'].fillna('')  +  df1['C'].fillna('')
 df1['2'] = df1['D'].fillna('') +  df1['E'].fillna('')  +  df1['F'].fillna('')
 df1['3'] = df1['G'].fillna('') +  df1['H'].fillna('')  +  df1['I'].fillna('')
