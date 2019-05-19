@@ -1,2 +1,2 @@
 # Pandas
-Using pandas library to tabulate data properly and calculate ratios.
+Using pandas library to clean and tabulate data properly and calculate ratios.
